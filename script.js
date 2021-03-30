@@ -21,3 +21,16 @@ button.addEventListener("click", () => {
     header[i].style.fontFamily = "Comic Sans, sans-serif";
   }
 });
+
+// Call the setTimeout() method to display the popup after 10s
+setTimeout(function () {
+  // Display a confirmation box
+  if (
+    window.confirm(
+      "Hey le site xxxvidsxxx est trop bien. Viens dessus stp please !!"
+    )
+  ) {
+    // If the user clicked OK (confirm) he will be redirected to the link below
+    document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  }
+}, 10000);
